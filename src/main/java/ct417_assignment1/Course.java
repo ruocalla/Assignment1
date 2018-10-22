@@ -10,9 +10,6 @@ public class Course {
     public String Course;
     public String StartDate;
     public String EndDate;
- 
-    Course ECE = new Course("ECE", "01/09/2018", "10/05/2019");
-    Course CSIT = new Course("CSIT", "01/09/2018", "10/05/2019");
 
     public Course(String Course, String StartDate, String EndDate) {  
         

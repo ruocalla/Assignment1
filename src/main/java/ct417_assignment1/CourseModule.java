@@ -9,12 +9,8 @@ public class CourseModule {
 
     public ArrayList <CourseModule>Modules;
     public String CourseModule;
-    
-    
-    CourseModule CT417 = new CourseModule("Software Engineering");
-    CourseModule CT101 = new CourseModule("Programming");
-        
-        
+   
+     
     public CourseModule(String CourseModule) {
     this.CourseModule = CourseModule;
     
