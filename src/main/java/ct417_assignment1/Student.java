@@ -1,5 +1,7 @@
 package ct417_assignment1;
 
+import java.util.ArrayList;
+
 
 public class Student {
     public String Name;
@@ -9,6 +11,7 @@ public class Student {
     public String Course;
     public String Module;
     public String ModID;
+    public int i;
     
     public String Username;
     
@@ -24,19 +27,15 @@ public class Student {
     
     }
 
-         public static void main(String[] args) {
+        public static void main(String[] args) {
        
-          Student Ruairí = new Student("Ruairí", 22, "27/08/1996" , 15361646, "ECE", "Software Engineering", "CT417");
-          
-          System.out.println("Username = " + Ruairí.getUsername());
           
     }   
     
+    public String getUsername(){
    
-     public String getUsername(){
-   
-        Username = (this.getName() + this.getAge());
-        return Username;
+    Username = (this.getName() + this.getAge());
+    return Username;
     
      }    
      

@@ -1,31 +1,25 @@
 package ct417_assignment1;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 
 public class Course {
+    public ArrayList <Course>Courses;
     public String Course;
-    public List <Module>Modules;
-    public List <Student>Students;
-    public Date Start;
-    public Date End;
+    public String StartDate;
+    public String EndDate;
  
-   
+    Course ECE = new Course("ECE", "01/09/2018", "10/05/2019");
+    Course CSIT = new Course("CSIT", "01/09/2018", "10/05/2019");
 
-    public Course(String Course, List Module, List Students) {
+    public Course(String Course, String StartDate, String EndDate) {  
         
-        Course = getCourse();
-        Modules = getModules();
-        Students = getStudents();
-      
+        this.Course = Course;
+    
     }
-    public void main(String[] args) {
 
-    }
-    
-    
-    
     public String getCourse() {
         return Course;
     }
@@ -33,23 +27,15 @@ public class Course {
     public void setCourse(String Course) {
         this.Course = Course;
     }
-
-    public List<Module> getModules() {
-        return Modules;
+    
+    
+    public ArrayList<Course> getCourses() {
+        return Courses;
     }
 
-    public void setModules(List<Module> Modules) {
-        this.Modules = Modules;
-    }
-
-    public List<Student> getStudents() {
-        return Students;
-    }
-
-    public void setStudents(List<Student> Students) {
-        this.Students = Students;
+    public void setCourses(ArrayList<Course> Course) {
+        this.Courses = Course;
     }
     
-   
 
 }
