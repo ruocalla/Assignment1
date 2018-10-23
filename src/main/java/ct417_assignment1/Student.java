@@ -15,7 +15,7 @@ public class Student {
     
     public String Username;
     
-    public Student(String Name, int Age, String DOB, int ID, String Course, String Modules, String ModID) {
+    public Student(String Name, int Age, String DOB, int ID, String Course, String Module, String ModID) {
     
     this.Name = Name;
     this.Age = Age;

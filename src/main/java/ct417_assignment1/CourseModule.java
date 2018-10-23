@@ -5,11 +5,12 @@ import static java.rmi.Naming.list;
 import java.util.ArrayList;
 import static java.util.Collections.list;
 
+
 public class CourseModule {
 
     public ArrayList <CourseModule>Modules;
     public String CourseModule;
-   
+    
      
     public CourseModule(String CourseModule) {
     this.CourseModule = CourseModule;
