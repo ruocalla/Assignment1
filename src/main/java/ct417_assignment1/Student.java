@@ -36,8 +36,8 @@ public class Student {
     return Username;
     
      }    
-    public String setUsername(String Username){
-    this.Username = Username;    
+    public void setUsername(String Username){
+        this.Username = Username;    
     }         
     
     public String getName() {
