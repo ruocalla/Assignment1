@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public class Course {
-    public ArrayList <Course>Courses;
+    public ArrayList <CourseModule>Courses = new ArrayList<CourseModule>();
     public String Course;
     public String StartDate;
     public String EndDate;
@@ -14,7 +14,6 @@ public class Course {
     public Course(String Course, String StartDate, String EndDate) {  
         
         this.Course = Course;
-    
     }
 
     public String getCourse() {
@@ -25,14 +24,11 @@ public class Course {
         this.Course = Course;
     }
     
-    
-    public ArrayList<Course> getCourses() {
+    public ArrayList<CourseModule> getModules() {
         return Courses;
     }
 
-    public void setCourses(ArrayList<Course> Course) {
-        this.Courses = Course;
-    }
-    
-
+    public void setModules(ArrayList<CourseModule> Courses) {
+        this.Courses = Courses;
+    }    
 }
