@@ -9,21 +9,19 @@ public class Student {
     public String DOB;
     public int ID;
     public String Course;
-    public String Module;
-    public String ModID;
+    public String CourseModule;
     public int i;
     
     public String Username;
     
-    public Student(String Name, int Age, String DOB, int ID, String Course, String Module, String ModID) {
+    public Student(String Name, int Age, String DOB, int ID, String Course, String CourseModule) {
     
     this.Name = Name;
     this.Age = Age;
     this.DOB = DOB;
     this.ID = ID;
     this.Course = Course;
-    this.Module = Module;
-    this.ModID = ModID;
+    this.CourseModule = CourseModule;
     
     }
 
@@ -38,7 +36,10 @@ public class Student {
     return Username;
     
      }    
-     
+    public String setUsername(String Username){
+    this.Username = Username;    
+    }         
+    
     public String getName() {
         return Name;
     }
@@ -80,26 +81,12 @@ public class Student {
     }
 
     public String getModule() {
-        return Module;
+        return CourseModule;
     }
 
     public void setModule(String Modules) {
-        this.Module = Modules;
-    }
-    
-        public String getModID() {
-        return ModID;
-    }
-
-    public void setModID(String ModID) {
-        this.ModID = ModID;
-    }
-    
-
-   
-
-
-     
+        this.CourseModule = Modules;
+    }    
 }
     
   
