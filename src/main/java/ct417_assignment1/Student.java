@@ -22,13 +22,7 @@ public class Student {
     this.ID = ID;
     this.Course = Course;
     this.CourseModule = CourseModule;
-    
     }
-
-        public static void main(String[] args) {
-       
-          
-    }   
     
     public String getUsername(){
    
