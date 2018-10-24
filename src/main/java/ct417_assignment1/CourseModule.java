@@ -25,9 +25,8 @@ public class CourseModule {
         return Students;
     }
     
-    public void getModules(ArrayList<CourseModule> Courses) {
-    this.CourseModule = CourseModule;
-    }    
+  
+    
     public void setStudents(ArrayList<Student> Modules) {
         this.Students = Modules;
     }    
