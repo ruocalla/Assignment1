@@ -16,10 +16,7 @@ public class CourseModule {
     this.CourseModule = CourseModule;
     
     }
-    public String getCourseModule() {
-        return CourseModule;
-    }
-
+   
     public void setModule(String Module) {
         this.CourseModule = CourseModule;
     }
@@ -27,7 +24,10 @@ public class CourseModule {
     public ArrayList<Student> getStudents() {
         return Students;
     }
-
+    
+    public void getModules(ArrayList<CourseModule> Courses) {
+    this.CourseModule = CourseModule;
+    }    
     public void setStudents(ArrayList<Student> Modules) {
         this.Students = Modules;
     }    

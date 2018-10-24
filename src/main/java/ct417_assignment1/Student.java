@@ -31,8 +31,8 @@ public class Student {
    
     Username = (this.getName() + this.getAge());
     return Username;
-    
      }    
+        
     public void setUsername(String Username){
         this.Username = Username;    
     }         

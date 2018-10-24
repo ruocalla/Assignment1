@@ -23,12 +23,10 @@ public class Course {
     public void setCourse(String Course) {
         this.Course = Course;
     }
-    
-    public ArrayList<CourseModule> getModules() {
-        return Courses;
-    }
 
     public void setModules(ArrayList<CourseModule> Courses) {
         this.Courses = Courses;
     }    
+    
+
 }
