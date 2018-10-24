@@ -27,8 +27,8 @@ public class Student {
     this.CourseModule = CourseModule;
     }    
     
-    public void getModules(ArrayList<CourseModule> Courses) {
-    this.CourseModule = CourseModule;
+    public String getModules(ArrayList<CourseModule> Courses) {
+    return CourseModule;
     } 
     
     public String getUsername(){
