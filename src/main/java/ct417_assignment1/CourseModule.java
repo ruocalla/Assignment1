@@ -7,8 +7,8 @@ import static java.util.Collections.list;
 
 
 public class CourseModule {
-
-    public ArrayList <Student>Modules = new ArrayList<Student>();
+    
+    public ArrayList <Student> Students = new ArrayList<Student>();
     public String CourseModule;
     
      
@@ -25,11 +25,11 @@ public class CourseModule {
     }
     
     public ArrayList<Student> getStudents() {
-    return Modules;
+        return Students;
     }
 
-    public void setModules(ArrayList<Student> Modules) {
-        this.Modules = Modules;
+    public void setStudents(ArrayList<Student> Modules) {
+        this.Students = Modules;
     }    
 
 }

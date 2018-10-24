@@ -83,7 +83,11 @@ public class Student {
 
     public void setModule(String Modules) {
         this.CourseModule = Modules;
-    }    
+    }   
+    
+    public String toString(){
+        return Name;
+    }
 }
     
   
