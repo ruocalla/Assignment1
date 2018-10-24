@@ -31,6 +31,15 @@ public class Student {
     return CourseModule;
     } 
     
+    public ArrayList<Student> getStudents() {
+    return Students;
+    }
+    
+    public void setStudents(ArrayList<Student> Modules) {
+        this.Students = Modules;
+    }    
+
+        
     public String getUsername(){
    
     Username = (this.getName() + this.getAge());
@@ -79,15 +88,7 @@ public class Student {
 
     public void setCourse(String Course) {
         this.Course = Course;
-    }
-
-    public String getModule() {
-        return CourseModule;
-    }
-
-    public void setModule(String Modules) {
-        this.CourseModule = Modules;
-    }   
+    }  
     
     public String toString(){
         return Name;

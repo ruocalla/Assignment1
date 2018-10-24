@@ -8,27 +8,19 @@ import static java.util.Collections.list;
 
 public class CourseModule {
     
-    public ArrayList <Student> Students = new ArrayList<Student>();
-    public String CourseModule;
-    
+    public ArrayList <CourseModule>Modules = new ArrayList<CourseModule>();    
      
-    public CourseModule(String CourseModule) {
-    this.CourseModule = CourseModule;
+    public CourseModule(ArrayList<CourseModule> Modules) {
+    this.Modules = Modules;    
+    }
+
+    public void setModule(ArrayList<CourseModule> Modules) {
+    this.Modules = Modules;
+    }    
+    
+    public ArrayList<CourseModule> getModule() {
+    return Modules;
     
     }
    
-    public void setModule(String Module) {
-        this.CourseModule = CourseModule;
-    }
-    
-    public ArrayList<Student> getStudents() {
-        return Students;
-    }
-    
-  
-    
-    public void setStudents(ArrayList<Student> Modules) {
-        this.Students = Modules;
-    }    
-
 }
