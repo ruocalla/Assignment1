@@ -21,16 +21,15 @@ public class CourseModule {
     }
 
     public void setModule(String Module) {
-        this.CourseModule = Module;
+        this.CourseModule = CourseModule;
     }
     
-    
-    public ArrayList<Student> getModules() {
-        return Modules;
+    public ArrayList<Student> getStudents() {
+    return Modules;
     }
 
     public void setModules(ArrayList<Student> Modules) {
         this.Modules = Modules;
-    }
+    }    
 
 }

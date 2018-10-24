@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 
 public class Student {
+    
+    public ArrayList <Student>Students = new ArrayList<Student>();
+
     public String Name;
     public int Age;
     public String DOB;
