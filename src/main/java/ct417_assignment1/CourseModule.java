@@ -6,33 +6,16 @@ import java.util.ArrayList;
 
 public class CourseModule {
     
-/*    public ArrayList <Student>Students = new ArrayList<Student>();    
-     
-    
-    
-    public CourseModule(ArrayList<Student> Modules) {
-    this.Modules = Modules;    
-    }
-
-    public void setModule(ArrayList<Student> Modules) {
-    this.Modules = Modules;
-    }    
-    
-    public ArrayList<Student> getModule() {
-    return Modules;
-    
-    }*/
-    public class Modules {
     private String CourseModule;
-    private String ID;
+    private String ModID;
     
     private ArrayList<Course> Courses = new ArrayList();
     private ArrayList<Student> Students = new ArrayList();
 
     
-    public Modules (String Module, String ID){
+    public CourseModule (String Module, String ModID){
         this.CourseModule = CourseModule;
-        this.ID = ID;
+        this.ModID = ModID;
     }
     public ArrayList<Course> getCourses(){
     return this.Courses;
@@ -42,12 +25,12 @@ public class CourseModule {
         return this.CourseModule;
     }
     
-    public String getID(){
-        return this.ID;
+    public String getModID(){
+        return this.ModID;
     }
     
     public ArrayList<Student> getStudents(){
         return this.Students;
         }
-    } 
-}
+} 
+
