@@ -8,6 +8,7 @@ public class CourseModule {
     
     private String CourseModule;
     private String ModID;
+    private String Mod;
     
     private ArrayList<Course> Courses = new ArrayList();
     private ArrayList<Student> Students = new ArrayList();
@@ -20,6 +21,13 @@ public class CourseModule {
     public ArrayList<Course> getCourses(){
     return this.Courses;
     }
+    
+        //Getters & Setters
+    public String getModule() {
+    this.Mod = this.getModuleName() + this.getModID();
+    return Mod;
+    }
+    
     
     public String getModuleName(){
         return this.CourseModule;

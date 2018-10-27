@@ -23,6 +23,7 @@ public class Student {
     this.Username = this.getName() + this.getAge();
     return Username;
     }
+    
     // Get & Set Name 
     public void setName(String name){
         this.Name = Name;
@@ -71,83 +72,6 @@ public class Student {
         this.CourseModule = CourseModule;
     }
 }    
-
- /*   public Student(String Name, int Age, String DOB, int ID, String Course, String CourseModule) {
-    
-    this.Name = Name;
-    this.Age = Age;
-    this.DOB = DOB;
-    this.ID = ID;
-    this.Course = Course;
-    this.CourseModule = CourseModule;
-    }    
-    
-    public String getModules(ArrayList<CourseModule> Courses) {
-    return CourseModule;
-    } 
-    
-    public ArrayList<Student> getStudents() {
-    return Students;
-    }
-    
-    public void setStudents(ArrayList<Student> Modules) {
-        this.Students = Modules;
-    }    
-
-        
-    public String getUsername(){
-   
-    Username = (this.getName() + this.getAge());
-    return Username;
-     }    
-        
-    public void setUsername(String Username){
-        this.Username = Username;    
-    }         
-    
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String Name) {
-        this.Name = Name;
-    }
-
-    public int getAge() {
-        return Age;
-    }
-
-    public void setAge(int Age) {
-        this.Age = Age;
-    }
-
-    public String getDOB() {
-        return DOB;
-    }
-
-    public void setDOB(String DOB) {
-        this.DOB = DOB;
-    }
-
-    public int getID() {
-        return ID;
-    }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public String getCourse() {
-        return Course;
-    }
-
-    public void setCourse(String Course) {
-        this.Course = Course;
-    }  
-    
-    public String toString(){
-        return Name;
-    }*/
 
     
   
