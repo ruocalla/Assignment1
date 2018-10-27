@@ -1,26 +1,53 @@
 package ct417_assignment1;
 
-import static java.nio.file.Files.list;
-import static java.rmi.Naming.list;
+
 import java.util.ArrayList;
-import static java.util.Collections.list;
 
 
 public class CourseModule {
     
-    public ArrayList <CourseModule>Modules = new ArrayList<CourseModule>();    
+/*    public ArrayList <Student>Students = new ArrayList<Student>();    
      
-    public CourseModule(ArrayList<CourseModule> Modules) {
+    
+    
+    public CourseModule(ArrayList<Student> Modules) {
     this.Modules = Modules;    
     }
 
-    public void setModule(ArrayList<CourseModule> Modules) {
+    public void setModule(ArrayList<Student> Modules) {
     this.Modules = Modules;
     }    
     
-    public ArrayList<CourseModule> getModule() {
+    public ArrayList<Student> getModule() {
     return Modules;
     
+    }*/
+    public class Modules {
+    private String CourseModule;
+    private String ID;
+    
+    private ArrayList<Course> Courses = new ArrayList();
+    private ArrayList<Student> Students = new ArrayList();
+
+    
+    public Modules (String Module, String ID){
+        this.CourseModule = CourseModule;
+        this.ID = ID;
     }
-   
+    public ArrayList<Course> getCourses(){
+    return this.Courses;
+    }
+    
+    public String getModuleName(){
+        return this.CourseModule;
+    }
+    
+    public String getID(){
+        return this.ID;
+    }
+    
+    public ArrayList<Student> getStudents(){
+        return this.Students;
+        }
+    } 
 }

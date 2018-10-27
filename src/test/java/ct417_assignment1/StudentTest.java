@@ -23,7 +23,7 @@ public class StudentTest {
     @Test
     public void testGetUsername() {
       
-        Student Ruairi = new Student("Ruairí", 22, "27/08/1996" , 15361646, "ECE", "Software Engineering");
+        Student Ruairi = new Student("Ruairí", 22);
         
         String Username;
         Username = (Ruairi.getUsername());
