@@ -21,8 +21,8 @@ public class Course {
     }
     
      //Get Module method     
-    public String getModules(){
-    return this.CourseModule;
+    public ArrayList<CourseModule> getModules(){
+    return this.ModList;
     }
     
    
