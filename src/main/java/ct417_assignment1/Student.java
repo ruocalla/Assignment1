@@ -9,8 +9,8 @@ public class Student {
     private String DOB;
     private int ID;
     private String Username;
-    private ArrayList<Course> Course = new ArrayList();
-    private ArrayList<CourseModule> CourseModule = new ArrayList();
+    private ArrayList<Course> CourseList = new ArrayList();
+    private ArrayList<CourseModule> ModList = new ArrayList();
     
     public Student(String name,int age){
         
@@ -58,18 +58,18 @@ public class Student {
     
      // Get & Set Course 
     public ArrayList<Course> getCourses() {
-        return Course;
+        return CourseList;
     }
     public void setCourses(ArrayList<Course> courses) {
-        this.Course = Course;
+        this.CourseList = CourseList;
     }
     
      // Get & Set Modules (Cannot be called 'Module' as it conflicts with other ecternal variables) 
     public ArrayList<CourseModule> getCourseModules() {
-        return CourseModule;
+        return ModList;
     }
-    public void setCourseModules(ArrayList<CourseModule> CourseModule) {
-        this.CourseModule = CourseModule;
+    public void setCourseModules(ArrayList<CourseModule> ModList) {
+        this.ModList = ModList;
     }
 }    
 
