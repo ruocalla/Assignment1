@@ -19,7 +19,7 @@ public class StudentTest {
         Student Ruairi = new Student("Ruairí", 22);
         String Username;
         Username = (Ruairi.getUsername());
-        assertEquals(Username, "null0");
+        assertEquals(Username, "dave");
         System.out.println("Test Passed");
         }
     @After
