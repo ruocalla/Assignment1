@@ -72,9 +72,3 @@ public class Student {
         this.ModList = ModList;
     }
 }    
-
-    
-  
-
-
-
