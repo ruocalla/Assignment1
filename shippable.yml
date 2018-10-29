@@ -8,7 +8,7 @@ branches:
         - master
 build:
     ci:
-        - cd PartA_Assignment1
+        - cd Assignment1
     on_success:
         - mvn clean
         - mvn test
